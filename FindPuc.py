@@ -21,6 +21,6 @@ class FindPuc(Behavior):
             return True
 
     def execute(self, robot):
-        robot.setMotorSpeeds(1, 0)
+        robot.setMotorSpeeds(0.5, 0)
 
 
